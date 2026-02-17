@@ -887,8 +887,11 @@ Error generating stack: `+n.message+`
     align-items: center !important;
     gap: 10px !important;
     cursor: pointer !important;
-    transition: background-color 0.3s ease, color 0.3s ease,
-      box-shadow 0.3s ease, transform 0.3s ease !important;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease,
+      box-shadow 0.3s ease,
+      transform 0.3s ease !important;
     font-weight: 500 !important;
     text-decoration: none !important;
     box-sizing: border-box !important;
@@ -912,7 +915,9 @@ Error generating stack: `+n.message+`
     svg {
       stroke: ${l=>l.mainColor||"#e7333c"} !important;
       fill: ${l=>l.mainColor||"#e7333c"} !important;
-      transition: stroke 0.3s ease, fill 0.3s ease !important;
+      transition:
+        stroke 0.3s ease,
+        fill 0.3s ease !important;
       pointer-events: none !important;
       user-select: none !important;
       flex-shrink: 0 !important;
